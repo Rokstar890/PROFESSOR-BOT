@@ -32,11 +32,11 @@
         },
         "SHORT_API": {
             "description": "Api Key Of shortner You Use.",
-            "required": false
+            "required": true
         },
         "SHORT_URL": {
             "description": "Url of shortner site you use.",
-            "required": false
+            "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
@@ -77,7 +77,7 @@
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
             "value": "MKN_BOTZ_DISCUSSION_GROUP",
-            "required": false
+            "required": true
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
@@ -97,7 +97,7 @@
         "IMDB_DELET_TIME": {
             "description": "bot risult aouto delet time in second do to avoid group copyright issue. default is 300 ",
             "value": "300",
-            "required": false  
+            "required": true  
         },
         "SINGLE_BUTTON": {
             "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
